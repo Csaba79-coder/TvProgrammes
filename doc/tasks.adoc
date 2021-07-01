@@ -1,0 +1,36 @@
+= TV-Programmes
+
+Create a program that handles the tv channels and their programs.
+
+There are different tv channels (the name of the channels are always unique). On the channels you can see different
+programmes (the names of the programmes are also unique).
+
+E.g:
+
+M1 programmes: Wonders of the nature, Smurfs, Game of Thrones
+M2 programmes: Eternal Sunshine of the Spotless Mind, Smurfs
+
+---
+
+=== Expectations
+
+
+
+
+A programod “végkimenetele” most nem annyira számít - elég, ha kiírod a képernyőre, melyik csatornán milyen műsorok vannak.Ami fontosabb…
+
+A programodban a csatornákat és a műsorokat külön “entitásként” kezeld. (Hint: a csatorna létező valami önmagában is, ám jelen esetben annak nincs sok értelme, hogy a műsor létezzen csatorna nélkül.)
+A programod legyen képes arra, hogy a csatornáknak külön-külön új műsortárat adjon, valamint arra is, hogy egy csatorna meglévő műsortárába új műsort vegyen fel. Ha valamelyik csatorna műsortárához hozzáadsz egy műsort, a programod biztosítsa azt, hogy már meglévő műsort ne adhass hozzá újra.
+A programod legyen képes arra is, hogy a csatornák műsortárából egy műsort töröljön. (Tehát nem az egész műsortárat törli, hanem csak egy műsort vesz le az “étlapról”.)
+
+A csatornák és műsorok létrehozásánál nem kell mindenre gondolnod. Elegendő, ha ezeket az adatokat tárolod:
+csatornáknál:
+név
+fizetős-e
+műsoroknál:
+cím
+korhatáros-e (vagy hogy mekkora a korhatár)
+egyrészes vagy folytatásos vagy sorozat
+
+Hint: Egy csatorna és egy műsor külön-külön entitás. Egy csatornának lehet több műsora, de a műsornál nem érdekes, hogy mely csatornákon adják őt. Azaz: a csatornánál kell szerepelnie, hogy milyen műsorokat ad, de a műsornál nem kell annak, hogy mely csatornákon adják.
+

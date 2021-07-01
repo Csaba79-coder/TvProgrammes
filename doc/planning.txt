@@ -1,0 +1,16 @@
+Planning
+
+TV /ancestor (mother)/ - name
+
+TV channel (kid) - name, channel number, type /movie, cartoon, natural, series etc./, isNonStop
+
+TV programme (kid) - name = title!!! so not good! to be a kid!, length, type /regular, series, continuous/,
+        category /drama, crime, cartoon, thriller, horror, etc./, isAgeRestricted
+
+Constructor: when I create the Object do I know the information ...
+
+
+Menu:
+
+1 - For movie title (Please enter a title for movie: )
+2 - For channel (Please choose a channel: )
