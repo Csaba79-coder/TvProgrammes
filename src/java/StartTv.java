@@ -10,7 +10,7 @@ public class StartTv {
          */
 
         FileHandler fileHandler = new FileHandler();
-        fileHandler.readFile("Movies.txt");
+        fileHandler.readFile("programmes.txt");
 
 
         Scanner.intScanner("Please enter a number for channel:");
