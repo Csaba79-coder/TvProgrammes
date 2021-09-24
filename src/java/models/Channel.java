@@ -2,6 +2,8 @@ package models;
 
 public class Channel {
 
+    // TODO as task changed check the fields! regarding the txt file!
+
     private String name;
     private int channelNumber;
     private String type;

@@ -2,6 +2,8 @@ package models;
 
 public class Movies {
 
+    // TODO as task changed check the fields! regarding the txt file
+
     private String title;
     private int length;
     private String type;
